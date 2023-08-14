@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+:root {
+    --fundo: #101728;
+    --btnColor1: #1f41bb;
+    --black: #000000;
+    --btnColor2: #9340ff;
+    --fontClara: #ffffff;
+    --fontEscura: #0f1819;
+
+    --font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--fontClara);
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: var(--fontEscura);
+    padding: 1rem;
+}
+
+.menu a:hover {
+    color: var(--btnColor1);
+}
+
+#inicio .text h1{
+    width: 25rem;
+}
+
+#inicio .text,
+.face {
+    margin-top: 5rem;
+}
+
+.logo img {
+    width: 20rem;
+}
+
+header {
+    position: relative;
+    padding: 5rem 12.5rem 20rem 12.5rem;
+}
+
+#inicio,#sobre, #projetos {
+   
+    width: 100%;
+    height: 40rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+#sobre, #contato{
+    width: 100%;    
+    color: var(--fontClara);
+    background-color: var(--fontEscura);
+}
+
+
+#sobre .text,
+.redesSociais {
+    margin-top: 5rem;
+}
+
+#sobre .text h1,
+h2 {
+    padding-top: 1rem;
+    width: 25rem;
+}
+
+#sobre .text h1 {
+    padding-bottom: 2rem;
+}
+
+#sobre .text h2 {
+    padding-bottom: 1rem;
+}
+
+#sobre .text li {
+    padding-bottom: 0.25rem;
+}
+
+#sobre .text p {
+
+    width: 30rem;
+}
+
+#sobre .text .react {
+    margin-left: 1rem;
+}
+
+.face img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+    border-radius: 2.5rem;
+    box-shadow: 0.5rem 2rem 3rem var(--fundo);
+
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+
+#sobre p {
+    width: 25rem;
+}
+
+.redesSociais h1 {
+    padding-top: 1rem;
+    left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.imgRedesSociais {
+    display: flex;
+    padding: 2rem 6rem;
+    gap: 2rem;
+    align-content: center;
+}
+
+.imgRedesSociais img:hover {
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+}
+
+.curriculo {
+    margin-top: 4rem;
+}
+
+.curriculo a {
+
+    padding: 1rem;
+    color: var(--fontClara);
+    background-image: linear-gradient(to right, var(--btnColor1), var(--fundo), var(--fontEscura));
+    text-decoration: none;
+    border-radius: 1rem;
+    border: solid 1px var(--fontClara);
+}
+
+.curriculo a:hover,.outrosProjetos a:hover ,.linkProjeto a:hover {
+    background-image: linear-gradient(to right, var(--btnColor1), var(--fundo));
+    transition: 1s;
+}
+
+
+.projetos, .projetosSecundario {
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.projetos{
+    grid-template-columns: repeat(3, 20rem);
+}
+
+.projetosSecundario{
+    grid-template-columns: repeat(4, 20rem);
+}
+
+.projeto{
+    margin-top: 2rem;
+    background-color: var(--black);
+    width: 16rem;
+    height: 11rem;
+    border-radius: 1rem;
+}
+
+.linkProjeto{
+    margin-top: 2rem;
+}
+
+.projetos a, .outrosProjetos a{
+    padding: 1rem;
+    width: 6rem;
+    background-image: linear-gradient(to right, var(--btnColor1), var(--fundo), var(--fontEscura));
+    text-decoration: none;
+    border-radius: 1rem;
+    color: var(--fontClara);
+}
+
+.outrosProjetos{
+    margin-top: 5rem;
+    
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+#contato .text{
+    margin-left: 10rem;
+    width: 40rem;
+    text-align: center;
+
+}
+
+#contato{
+    height: 30rem;
+}
+
+
+#contato .imgRedesSociais{
+    margin-left: 15rem;
+}
+
+
