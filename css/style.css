@@ -111,7 +111,7 @@ header {
 
 #sobre,
 #contato {
-    width: 100%;
+    
     color: var(--fontClara);
     background-color: var(--fontEscura);
 }
