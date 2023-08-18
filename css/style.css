@@ -48,10 +48,10 @@ nav {
 #itensMenu {
     display: none;
     width: 5rem;
-    
+
 }
 
-#itensMenu a{
+#itensMenu a {
     text-decoration: none;
     color: var(--black);
 }
@@ -60,10 +60,11 @@ nav {
     color: var(--btnColor1);
 }
 
-#itensMenu li{
+#itensMenu li {
     list-style: none;
     margin-top: 1rem;
 }
+
 .menu a {
     text-decoration: none;
     margin-right: 1rem;
@@ -111,7 +112,7 @@ header {
 
 #sobre,
 #contato {
-    
+
     color: var(--fontClara);
     background-color: var(--fontEscura);
 }
@@ -425,5 +426,10 @@ h1 {
 
     #sobre .imgRedesSociais {
         margin-left: -1.5rem;
+    }
+
+    #contato,
+    #sobre {
+        width: 150%;
     }
 }
