@@ -46,8 +46,23 @@ nav {
 
 #itensMenu {
     display: none;
+    width: 5rem;
+    
 }
 
+#itensMenu a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+#itensMenu a:hover {
+    color: var(--btnColor1);
+}
+
+#itensMenu li{
+    list-style: none;
+    margin-top: 1rem;
+}
 .menu a {
     text-decoration: none;
     margin-right: 1rem;
@@ -68,9 +83,14 @@ nav {
     margin-top: 5rem;
 }
 
-.logo img {
-    width: 20rem;
+.logo {
+    width: 30%;
 }
+
+.logo img {
+    width: 100%;
+}
+
 
 header {
     position: relative;
@@ -271,6 +291,10 @@ h1 {
         grid-template-columns: repeat(2, 20rem);
     }
 
+    .logo img {
+        width: 120%;
+    }
+
 
 }
 
@@ -282,6 +306,7 @@ h1 {
         width: 100%;
 
     }
+
     #contato .imgRedesSociais {
         margin-left: 2.25rem;
     }
@@ -296,15 +321,14 @@ h1 {
 
     }
 
-    #sobre {
-        display: block;
-        height: 50rem;
+    .logo img {
+        width: 140%;
     }
 
-  
-
-   
-
+    #sobre {
+        display: block;
+        height: 52.5rem;
+    }
 
     .menu {
         display: none;
@@ -316,8 +340,6 @@ h1 {
 
 
 }
-
-
 
 @media (max-width: 650px) {
     #contato .imgRedesSociais {
@@ -344,24 +366,63 @@ h1 {
         height: 10rem;
 
     }
-}
-
-
-
-@media (max-width:550) {
 
     .logo img {
-        width: 10rem;
+        width: 160%;
+    }
+}
+
+@media (max-width: 550px) {
+    .face img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 0.5rem;
+        margin-left: -1rem;
+
+
     }
 
-    .face img {
-        width: 5rem;
-        height: 5rem;
-
+    #inicio .text h1 {
+        width: 13rem;
     }
 
     header {
-        padding: 5rem 20rem ;
+        padding: 5rem 1rem 20rem 1rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .face img {
+        margin-left: -2rem;
+    }
+
+    #contato .imgRedesSociais {
+        margin-left: 1rem;
+    }
+
+    #sobre .text {
+        width: 50%;
     }
 }
 
+
+@media (max-width: 350px) {
+
+    #sobre .text p,
+    #sobre .redesSociais p {
+        width: 15rem;
+    }
+
+    #sobre {
+        height: 57.5rem;
+    }
+
+    #contato .imgRedesSociais {
+        margin-left: 0.5rem;
+    }
+
+    #sobre .imgRedesSociais {
+        margin-left: -1.5rem;
+    }
+}
