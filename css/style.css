@@ -416,15 +416,34 @@ h1 {
         width: 15rem;
     }
 
+    .face img {
+        margin-left: -3rem;
+    }
+
     #sobre {
-        height: 57.5rem;
+        height: 60rem;
     }
 
-    #contato .imgRedesSociais {
-        margin-left: 0.5rem;
+    #contato .imgRedesSociais img {
+        width: 2rem;
+        height: 2rem;
     }
 
-    #sobre .imgRedesSociais {
+    #sobre .imgRedesSociais img {
         margin-left: -1.5rem;
     }
+
+    #sobre .redesSociais{
+        width: 200px;
+    }
+
+    nav{
+        width: 100%;
+        position: relative;
+    }
+
+    .navbar{
+        width: 280px;
+    }
+
 }
