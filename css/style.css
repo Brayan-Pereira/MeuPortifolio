@@ -10,7 +10,6 @@
     --fundo: #101728;
     --btnColor1: #1f41bb;
     --black: #000000;
-    --btnColor2: #9340ff;
     --fontClara: #ffffff;
     --fontEscura: #0f1819;
 
@@ -446,4 +445,13 @@ h1 {
         width: 280px;
     }
 
+}
+
+::-webkit-scrollbar{
+    width:10px;
+    background-color: var(--fontEscura);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--fontClara);
 }
