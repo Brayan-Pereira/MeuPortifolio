@@ -405,6 +405,10 @@ h1 {
     #sobre .text {
         width: 50%;
     }
+
+    #sobre p{
+        width: 7.5rem;
+    }
 }
 
 
@@ -436,14 +440,10 @@ h1 {
         width: 200px;
     }
 
-    nav{
-        width: 100%;
-        
+    header {
+        padding: 5rem 10px 20rem 10x;
     }
 
-    .navbar{
-        width: 280px;
-    }
 
 }
 
